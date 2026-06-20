@@ -20,11 +20,7 @@
     gfxmodeEfi = "1920x1080";
    };
   };
-  # networking.hostName = "nixos"; # Define your hostname.
-  programs.hyprland = {
-    enable = true;
-    xwayland.enable = true; 
- };  
+  # networking.hostName = "nixos"; # Define your hostname.  
 
   # Configure network connections interactively with nmcli or nmtui.
   networking.networkmanager.enable = true;
